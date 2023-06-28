@@ -1,0 +1,167 @@
+* {
+  margin: 0px;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+}
+
+main {
+  width: 75%;
+  height: inherit;
+  margin: auto;
+}
+
+header {
+  width: 100%;
+  background: url(../images/headerbg.jpg) no-repeat fixed;
+  background-size: 100%;
+  /* min-height: 1290px; */
+  position: relative;
+  padding-top: 80px;
+}
+
+#logo img:last-child {
+  width: 400px;
+  height: 154px;
+  float: right;
+  margin-right: 10px;
+}
+#logo img:first-child {
+  width: 120px;
+  height: 106px;
+  position: relative;
+  left: 51.5%;
+}
+
+#logo {
+  height: 100vh;
+  width: 100%;
+  border-bottom: #182d55 14px solid;
+}
+
+.buttom {
+  background: rgba(0, 0, 0, 0.5);
+  width: inherit;
+  height: 448px;
+  padding-top: 30px;
+}
+.buttom li:first-child {
+  border: none;
+}
+.buttom li {
+  border-left: 2px solid white;
+  padding-left: 50px;
+  height: 40px;
+  padding: 12px 50px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.buttom ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.buttom a {
+  color: white;
+}
+
+#Aerial-applicators {
+  width: 100%;
+}
+.top-section {
+  background: #182d55 url(../images/helicopters.jpg) no-repeat center center;
+  height: 261px;
+  width: inherit;
+}
+
+.image-section {
+  background: url(../images/frameimg1.jpg) no-repeat fixed;
+  background-size: cover;
+  height: 321px;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  height: inherit;
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  height: 4px;
+  width: 20%;
+  border: 2px solid white;
+}
+
+.title {
+  height: 51px;
+  /* width: 250px; */
+  border: 8px solid white;
+  font-size: 26px;
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 0 5px;
+}
+
+.lorem-section {
+  width: 100%;
+  text-align: center;
+  padding: 100px 10px 100px 10px;
+  font-size: 24px;
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+  color: #182d55;
+}
+
+.lorem-section a {
+  text-decoration: none;
+  font-size: 26px;
+  color: #182d55;
+  cursor: pointer;
+}
+
+/* Helicopter-Services */
+#Helicopter-Services .image-section {
+  background: url(../images/frameimg2.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
+/* Flight Training */
+
+#Flight-Training .image-section {
+  background: url(../images/frameimg3.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
+/* Charters */
+
+#Charters .image-section {
+  background: url(../images/frameimg4.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
+/* Contact-Us */
+
+#Contact-Us .image-section {
+  background: url(../images/frameimg5.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
+.border {
+  width: 80%;
+  border-bottom: 2px solid black;
+  margin: auto;
+}
